@@ -1,12 +1,49 @@
 # Flutter_Online_Shop_App
-
-This application supports two different languages such as English and Arabic. <br />
-And the application is responsive for any size. <br />
-Also you can changing the app theme mode and accent color of the application. <br />                    
+This is hackon with amazon submission by Team 100 = 4
+--
+Features of our app:
+1) Email & Password Authentication <br />
+2) Persisting Auth State <br />
+3) Searching Products <br />
+4) Filtering Products (Based on Category) <br />
+5) Product Details <br />
+6) Mandatory Size <br />
+7) Suggested size according to Previous purchase <br />
+8) Try on Products using AR <br />
+9) Easy Review Products by Standard questions <br />
+10) Cart <br />
+11) Checking out with Google/Apple Pay <br />
+12) Viewing My Orders <br />
+13) Viewing Order Details & Status <br />
+14) Sign Out <br />
+15) This application supports two different languages such as English and Arabic <br />
+16) And the application is responsive for any size. <br />
+17) Also you can changing the app theme mode and accent color of the application. <br />
+18) Flutter build features: made for web, win, mac, ios at same time <br />
 
 Technologies used --> ( Bloc State Management - Dio package and deal with postman - Shared Preferences ).
 
 -----------------------------------------------------------------------------------------------
+#Problems:
+1) The goods cannot be tried on online as they can in physical stores.
+2) Products are not always the same size as they appear in images.
+3) People are giving reviews without even buying
+4) Product is exchanged, or damaged in the shipping procedure
+5) Since there aren't many reviews for some items, customers aren't helped.
+6) Customer may find the lengthy review procedure tedious and want to skip it.
+7) Insecure Payments, Receiving wrong Product, Fake Sellers 
+
+---
+#Solutions:
+1) Get Rewards for Review
+2) QR Code on every Product
+3) Easy Review System
+4) Enhancing Cybersecurity
+5) VR and AR - Try on products
+6) Accurate Scale required
+
+---
+
 <pre>
    On_Boarding_Screen: (Portrait)
    ------------------------------
