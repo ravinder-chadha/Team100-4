@@ -30,13 +30,13 @@ var shopLayoutItems = {
     'Home',
     'Categories',
     'Favorites',
-    'Settinges',
+    'Settings',
   ],
   'ar': [
-    'الصفحة الرئيسية',
-    'الفئات',
-    'المفضلة',
-    'الإعدادات',
+    'घर',
+    'श्रेणियाँ',
+    'पसंदीदा',
+    'समायोजन',
   ],
 };
 
@@ -44,167 +44,167 @@ var shopLayoutItems = {
 Map appWords = {
   'loginTitle': {
     'en': 'Log in to your account',
-    'ar': 'تسجيل الدخول إلى حسابك',
+    'ar': 'अपने खाते में प्रवेश करें',
   },
   'login': {
     'en': 'LOGIN',
-    'ar': 'تسجيل الدخول',
+    'ar': 'लॉग इन करें',
   },
   'noAccount': {
     'en': 'Don\'t have an account?',
-    'ar': 'لا تملك حساب؟',
+    'ar': 'खाता नहीं है',
   },
   'haveAccount': {
     'en': 'Do you already have an account?',
-    'ar': 'هل لديك حساب بالفعل؟',
+    'ar': 'क्या आपका पूर्व निर्मित खाता है',
   },
   'createAccount': {
     'en': 'Create a new account',
-    'ar': 'إنشاء حساب جديد',
+    'ar': 'एक नया खाता बनाएं',
   },
   'register': {
     'en': 'REGISTER',
-    'ar': 'تسجيل',
+    'ar': 'रजिस्टर करें',
   },
   'logout': {
     'en': 'LOGOUT',
-    'ar': 'تسجيل الخروج',
+    'ar': 'लॉग आउट',
   },
   /////////////
   'username': {
     'en': 'Username',
-    'ar': 'اسم المستخدم',
+    'ar': 'उपयोगकर्ता नाम',
   },
   'usernameError': {
     'en': 'Please enter your username',
-    'ar': 'يرجي إدخال اسم المستخدم الخاص بك',
+    'ar': 'अपने उपयोगकर्ता नाम दर्ज करें',
   },
   'email': {
     'en': 'Email Address',
-    'ar': 'عنوان البريد الإلكتروني',
+    'ar': 'ईमेल पता',
   },
   'emailError': {
     'en': 'Please enter a valid email address',
-    'ar': 'يرجى إدخال عنوان بريد إلكتروني صحيح',
+    'ar': 'कृपया एक वैध ई - मेल एड्रेस डालें',
   },
   'password': {
     'en': 'Password',
-    'ar': 'كلمة المرور',
+    'ar': 'पासवर्ड',
   },
   'passwordError': {
     'en': 'Password is too short',
-    'ar': 'كلمة المرور قصيرة جدا',
+    'ar': 'पारण बहुत छोटा है',
   },
   'phone': {
     'en': 'Phone',
-    'ar': 'الهاتف',
+    'ar': 'फ़ोन',
   },
   'phoneError': {
     'en': 'Please enter your phone number',
-    'ar': 'يرجى إدخال رقم هاتفك',
+    'ar': 'कृपया अपना फोन नंबर दर्ज करें',
   },
   //////////////
   'home': {
     'en': 'Home',
-    'ar': 'الصفحة الرئيسية',
+    'ar': 'घर',
   },
   'categories': {
     'en': 'Categories',
-    'ar': 'الفئات',
+    'ar': 'श्रेणियाँ',
   },
   'products': {
     'en': 'Products',
-    'ar': 'المنتجات',
+    'ar': 'उत्पादों',
   },
   'favorites': {
     'en': 'Favorites',
-    'ar': 'المفضلة',
+    'ar': 'पसंदीदा',
   },
   'settings': {
     'en': 'Settings',
-    'ar': 'الإعدادات',
+    'ar': 'समायोजन',
   },
   /////////
   'cart': {
     'en': 'Shopping Cart',
-    'ar': 'عربة التسوق',
+    'ar': 'शॉपिंग कार्ट',
   },
   'addCart': {
     'en': 'Add to cart',
-    'ar': 'أضف إلى العربة',
+    'ar': 'कार्ट में जोड़ें',
   },
   'total': {
     'en': 'Total',
-    'ar': 'المجموع',
+    'ar': 'कुल',
   },
   'checkout': {
     'en': 'CHECKOUT',
-    'ar': 'إتمام الشراء',
+    'ar': 'चेक आउट',
   },
   ///////////
   'account': {
     'en': 'Account',
-    'ar': 'الحساب',
+    'ar': 'खाता',
   },
   'update': {
     'en': 'Updating Data',
-    'ar': 'تحديث البيانات',
+    'ar': 'डेटा अपडेट करना',
   },
   ///////////
   'theme': {
     'en': 'Theme',
-    'ar': 'المظهر',
+    'ar': 'थीम',
   },
   'lightMode': {
     'en': 'Light Mode',
-    'ar': 'الوضع الفاتح',
+    'ar': 'लाइट मोड',
   },
   'darkMode': {
     'en': 'Dark Mode',
-    'ar': 'الوضع الداكن',
+    'ar': 'डार्क मोड',
   },
   'themeTitle1': {
     'en': 'Choose your application mode',
-    'ar': 'اختر وضع التطبيق الخاص بك',
+    'ar': 'अपना आवेदन मोड चुनें',
   },
   'themeTitle2': {
     'en': 'Choose your accent color',
-    'ar': 'اختر لون التمييز الخاص بك',
+    'ar': 'अपना उच्चारण रंग चुनें',
   },
   ///////////
   'language': {
     'en': 'Language',
-    'ar': 'اللغة',
+    'ar': 'भाषा',
   },
   'changeLanguage': {
     'en': 'Please wait while changing the application language',
-    'ar': 'يرجى الانتظار أثناء تغيير لغة التطبيق',
+    'ar': 'कृपया आवेदन की भाषा बदलते समय प्रतीक्षा करें',
   },
   'arabic': {
-    'en': 'Arabic',
-    'ar': 'العربية',
+    'en': 'Hindi',
+    'ar': 'हिन्दी',
   },
   ///////////
   'search': {
     'en': 'Search...',
-    'ar': 'بحث...',
+    'ar': 'खोज...',
   },
   'noSearch': {
     'en': 'No results found',
-    'ar': 'لم يتم العثور على نتائج',
+    'ar': 'कोई परिणाम नहीं मिला',
   },
   ////////////
   'messageAdding': {
     'en': 'Added Successfully',
-    'ar': 'تمت الإضافة بنجاح',
+    'ar': 'सफलतापूर्वक जोड़ा गया',
   },
   'price': {
-    'en': 'EGP',
-    'ar': 'جنيه',
+    'en': 'INR',
+    'ar': 'रुपया',
   },
     ////////////
   'payment': {
     'en': 'Payment Method',
-    'ar': 'طريقة الدفع',
+    'ar': 'भुगतान का तरीका',
   },
 };

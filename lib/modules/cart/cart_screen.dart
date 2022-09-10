@@ -69,6 +69,27 @@ class CartScreen extends StatelessWidget {
                       color: Colors.black.withOpacity(0.4),
                       child: const Center(child: CircularProgressIndicator()),
                     ),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Align(
+                        alignment: Alignment.bottomLeft,
+                        child: Text("You have 10 tokens",style: TextStyle(
+                                      color:Colors.orange,
+                                      fontSize: 20),
+                      ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Align(
+                        alignment: Alignment.bottomRight,
+                        child: Text('Discount\n${((cubit.cartsModel!.data!.total)*10/100).round()}',style: const TextStyle(
+                                      color:Colors.orange,
+                                      fontSize: 20),
+                                      textAlign: TextAlign.right,
+                      ),
+                      ),
+                    ),
                 ],
               ),
             ),
@@ -100,7 +121,7 @@ class CartScreen extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              '${(cubit.cartsModel!.data!.total).round()} ',
+                              '${((cubit.cartsModel!.data!.total))*90/100.round()} ',
                               style: defaultTextStyle(
                                 fontSize: 19,
                                 color: cubit.primaryColor,

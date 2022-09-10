@@ -11,32 +11,32 @@ class PaymentScreen extends StatelessWidget {
   List<Map> paymentList = [
     {
       'en': 'Visa',
-      'ar': 'فيزا',
+      'ar': 'वीसा',
       'image': 'assets/images/payments/visa.jpg',
     },
     {
       'en': 'Mastercard',
-      'ar': 'ماستركارد',
+      'ar': 'मास्टर कार्ड',
       'image': 'assets/images/payments/mastercard.jpg',
     },
     {
       'en': 'Paypal',
-      'ar': 'باي بال',
+      'ar': 'Paypal',
       'image': 'assets/images/payments/paypal.jpg',
     },
     {
       'en': 'American Express',
-      'ar': 'أمريكان إكسبريس',
+      'ar': 'अमेरिकन एक्सप्रेस',
       'image': 'assets/images/payments/americanexpress.jpg',
     },
     {
       'en': 'Cirrus',
-      'ar': 'سيروس',
+      'ar': 'सिरस',
       'image': 'assets/images/payments/cirrus.jpg',
     },
     {
       'en': 'Visa Electron',
-      'ar': 'فيزا إلكترون',
+      'ar': 'वीसा इलेक्ट्रॉन',
       'image': 'assets/images/payments/visaelectron.jpg',
     },
   ];
