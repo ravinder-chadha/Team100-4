@@ -2,7 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_shop_app/modules/products/deepAR.dart';
+import 'package:flutter_shop_app/modules/products/Reviewproducts.dart';
+import 'package:flutter_shop_app/modules/products/fakeAr.dart';
 import 'package:flutter_shop_app/modules/products/size_selector.dart';
 
 import '/models/carts_model.dart';
@@ -40,7 +41,7 @@ class _ProductsDatailsScreenState extends State<ProductsDatailsScreen> {
             },
             child: OrientationBuilder(
               builder: (context, orientation) => Scaffold(
-                body: CustomScrollView(
+                body: Stack(children: [CustomScrollView(
                   physics: const BouncingScrollPhysics(),
                   slivers: [
                     SliverAppBar(
@@ -190,19 +191,41 @@ class _ProductsDatailsScreenState extends State<ProductsDatailsScreen> {
                       ),
                     ),
                   ],
-                ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Align(
+                      alignment: Alignment.bottomLeft,
+                      child: FloatingActionButton(
+                        backgroundColor: cubit.primaryColor,
+                        onPressed: () {
+                          Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const MyReviewPage(),
+                        ),
+                      );
+                        },
+                        child: const Icon(
+                          Icons.star,
+                          color: Colors.white,
+                        ),
+                      ),
+                      ),
+                  ),
+                ],),
                 /////////////////////////////
                 floatingActionButtonLocation:
                     FloatingActionButtonLocation.endFloat,
                 floatingActionButton: FloatingActionButton(
                   backgroundColor: cubit.primaryColor,
                   onPressed: () {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => const DeepAr(),
-                    //   ),
-                    // );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const FakeAR(),
+                      ),
+                    );
                   },
                   child: const Icon(
                     Icons.camera_alt,
