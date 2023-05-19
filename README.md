@@ -82,10 +82,7 @@ Register_Screen: (English)
   Categories_Screen:(Portrait)
    -------------------------------------
    <img src = "https://user-images.githubusercontent.com/95254717/176795505-b46a352e-c866-4aa4-8f45-1d9f117e51a0.png" height=250>
-   
-  Categories_Screen:(Landscape)(Dark Mode)
-  -------------------------------------
-   <img src = "https://user-images.githubusercontent.com/95254717/176795593-ee80800a-5db9-4cc2-b3f2-68f0b1f20c85.png" height=120> 
+    
 </pre>
 ----------------------------------------------------------------------------------------------
 <pre>
@@ -93,9 +90,6 @@ Register_Screen: (English)
    ---------------------------
    <img src = "https://user-images.githubusercontent.com/95254717/176795509-a2ee830f-d28f-46e7-8544-185402d6a46e.png" height=250> 
    
-  Favorites_Screen:(Landscape)
-  ----------------------------
-   <img src = "https://user-images.githubusercontent.com/95254717/176797136-f595d10d-1975-408e-8e73-367efac2fcb0.png" height=120>
 </pre>
 ----------------------------------------------------------------------------------------------
 <pre>
